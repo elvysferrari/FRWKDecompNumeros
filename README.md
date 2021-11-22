@@ -1,6 +1,6 @@
 # FRWKDecompNumeros
 
-Desafio Técnio - .NET
+Desafio Técnico - .NET
 
 Descrição do Desafio
 
