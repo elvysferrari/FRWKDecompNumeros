@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uDdM70FT/dgFX8pN0NO0SD3zCT8k6ekDBAvcdPwGgVYxbpUrIbCeKcG0L1tt4Xki7UIypOBFVGSMA6/WpmSDZw==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\framework_desafio_tecnico\\Infraestrutura\\Infraestrutura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elvys\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

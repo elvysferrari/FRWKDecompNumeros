@@ -1,0 +1,17 @@
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Infraestrutura.deps.json
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Infraestrutura.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\ref\Infraestrutura.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Infraestrutura.pdb
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Dominio.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Dominio.pdb
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.csproj.AssemblyReference.cache
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.AssemblyInfoInputs.cache
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.AssemblyInfo.cs
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.csproj.CoreCompileInputs.cache
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.csproj.CopyComplete
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\ref\Infraestrutura.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\obj\Debug\net6.0\Infraestrutura.pdb
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Aplicacao.dll
+D:\GitHub\framework_desafio_tecnico\Infraestrutura\bin\Debug\net6.0\Aplicacao.pdb

@@ -1,0 +1,12 @@
+D:\GitHub\framework_desafio_tecnico\Aplicacao\bin\Debug\net6.0\Aplicacao.deps.json
+D:\GitHub\framework_desafio_tecnico\Aplicacao\bin\Debug\net6.0\Aplicacao.dll
+D:\GitHub\framework_desafio_tecnico\Aplicacao\bin\Debug\net6.0\ref\Aplicacao.dll
+D:\GitHub\framework_desafio_tecnico\Aplicacao\bin\Debug\net6.0\Aplicacao.pdb
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.csproj.AssemblyReference.cache
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.AssemblyInfoInputs.cache
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.AssemblyInfo.cs
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.csproj.CoreCompileInputs.cache
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.dll
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\ref\Aplicacao.dll
+D:\GitHub\framework_desafio_tecnico\Aplicacao\obj\Debug\net6.0\Aplicacao.pdb
