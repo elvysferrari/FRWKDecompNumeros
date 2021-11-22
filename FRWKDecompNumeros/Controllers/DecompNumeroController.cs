@@ -22,11 +22,14 @@ namespace FRWKDecompNumerosAPI.Controllers
                 var appNumerosDecomp = _decompNumeroServico.ObterDecomposicao(numero);
                 appNumerosDecomp.numerosPrimos = _decompNumeroServico.ObterPrimos(appNumerosDecomp.numerosDivisores).numerosPrimos;
 
-                return Ok(appNumerosDecomp);
+                if(appNumerosDecomp.erro != null)
+                    return this.StatusCode(StatusCodes.Status400BadRequest, appNumerosDecomp.erro.Message);
+                else
+                    return Ok(appNumerosDecomp);
 
             }catch(Exception e)
             {
-                return BadRequest(e);
+                return this.StatusCode(StatusCodes.Status500InternalServerError, e.Message);             
             }
             
         }

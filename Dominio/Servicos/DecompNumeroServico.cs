@@ -1,19 +1,20 @@
-﻿using Aplicacao.Modelos;
+﻿using Aplicacao.DTOS;
 using Dominio.Interfaces;
-using Dominio.Modelos;
 
-namespace Infraestrutura.Servicos
+namespace Dominio.Servicos
 {
     public class DecompNumeroServico : IDecompNumero
     {
-        public AplicacaoDecompNumero ObterDecomposicao(int decompNumero)
+        public DecompNumeroDTO ObterDecomposicao(int decompNumero)
         {
-            AplicacaoDecompNumero appDecomNro = new();
+            DecompNumeroDTO appDecomNro = new();
             try
             {
-                if (!int.TryParse(decompNumero.ToString(), out int number) || number <= 0)
+                if (!int.TryParse(decompNumero.ToString(), out int numSaida) || numSaida <= 0)
                 {
-                    throw new ArithmeticException("O número digitado é inválido.");
+                    Exception erro = new Exception($"O número {numSaida} é inválido pra esta operação.");
+                    appDecomNro.erro = erro;
+                    return appDecomNro;
                 }
 
                 for (int x = 1; x <= Math.Sqrt(decompNumero); x++)
@@ -33,14 +34,15 @@ namespace Infraestrutura.Servicos
 
                 return appDecomNro;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                appDecomNro.erro = e;
                 return appDecomNro;
             }
         }
-        public AplicacaoDecompNumero ObterPrimos(List<int> numeros)
+        public DecompNumeroDTO ObterPrimos(List<int> numeros)
         {
-            AplicacaoDecompNumero appDecomNro = new();
+            DecompNumeroDTO appDecomNro = new();
             try
             {
                 bool isPrime = true;
@@ -79,8 +81,9 @@ namespace Infraestrutura.Servicos
 
                 return appDecomNro;
             }
-            catch (Exception)
+            catch (Exception e)
             {
+                appDecomNro.erro = e;
                 return appDecomNro;
             }
         }
